@@ -43,10 +43,10 @@ body{
 .note{
     border: dashed 2px black;
     text-align: center;
-    font-size: 18px;
-    writing-mode:vertical-lr;
+    font-size: 15px;
+    writing-mode:vertical-rl;
     text-orientation: mixed;
-    width: 122px;
+    width: 100px;
         
 }
 .note p{
