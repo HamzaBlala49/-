@@ -1,0 +1,58 @@
+:root{
+    direction: rtl;
+
+}
+body{
+    font-family:auto;
+}
+
+.border-header{
+    border: solid 3px black;
+    box-shadow: 1px -3px;
+    height: 153px;
+}
+
+.title-heade{
+    padding-top: 30px;
+    border-bottom: solid 3px black;
+    margin-top: 72px;
+}
+.number-d::after{
+    content: ")";
+
+}
+.number-d::before{
+    content: "(";
+
+}
+.table1{
+    border: 2px solid black;
+}
+.table1 th{
+    border: 2px solid black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+} 
+.table1 td{
+    border: 2px solid black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+} 
+.note{
+    border: dashed 2px black;
+    text-align: center;
+    font-size: 18px;
+    writing-mode:vertical-lr;
+    text-orientation: mixed;
+    width: 122px;
+        
+}
+.note p{
+    transform: rotate(180deg);
+}
+
+.hr-line{
+    border: 1px dashed black;
+}
